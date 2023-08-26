@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buffet Francano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Cabeçalho do nosso site-->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 4px;">
+            <a href="#home" class="w3-bar-item w3-button">Buffet Francano</a>
+
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+                <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contato</a>
+            </div>
+        </div>
+    </div>
+
+    <!--Imagem do nosso site-->
+    <header class="w3-display-container w3-content w3-wide" style="max-width: 1600px;min-width: 500px;" id="home">
+        <img class="w3-image" src="Imagens/hamburger.jpg" alt="Hamburguer Francano" width="1600" height="800">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w3-xxlarge">Buffet Francano</h1>
+        </div>
+    </header>
+
+    <!--Conteúdo da página-->
+    <div class="w3-content" style="max-width: 1100px;">
+
+        <!--Sessão sobre-->
+        <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="Imagens/mesa.jpg" alt="Uma mesa com pratos de comida vista de cima"
+                    class="w3-round w3-image w3-opacity-min" width="600" height="750">
+            </div>
+
+            <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">Sobre o Buffet</h1>
+                <h6 class="w3-center">Tradição desde 1998</h6>
+                <p class="w3-large" style="text-align: justify;">O buffet foi fundado por <span
+                        class="w3-tag w3-light-grey">Dona Palmirinha em 1998</span> Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Enim incidunt dignissimos distinctio? Quisquam dolorem officia ipsa
+                    asperiores omnis mollitia, maxime beatae nostrum accusamus quas soluta voluptatem excepturi,Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Accusantium quaerat debitis unde expedita!
+                    Possimus, accusantium, maxime molestiae delectus voluptate cumque illum ad error dolores impedit
+                    distinctio quia minima mollitia eligendi!<span class="w3-tag w3-light-grey">Apenas usamos
+                        igredientes frescos.</span></p>
+            </div>
+        </div>
+
+        <br>
+
+        <!--Sessão do menu-->
+        <div class="w3-row w3-padding-64" id="menu">
+            <div class="w3-col l6 w3-padding-large">
+                <h1 class="w3-center">Nosso Menu</h1><br>
+                <h4 class="w3-tag w3-light-grey">Cesta de pães</h4>
+                <p class="w3-text-grey">Variedade de pães de frutas frescas e muffins! | R$5.50</p><br>
+
+                <h4 class="w3-tag w3-light-grey">Granola com Mel e Amêndoa com Frutas</h4>
+                <p class="w3-text-grey">Cereais naturais de aveia torrada com mel, passas, amêndoas e tâmaras | R$7.00
+                </p><br>
+
+                <h4 class="w3-tag w3-light-grey">Waffle Belga</h4>
+                <p class="w3-text-grey">Waffle sabor baunilha com farinha de malte | R$7.50</p><br>
+
+                <h4 class="w3-tag w3-light-grey">Ovos Mexidos</h4>
+                <p class="w3-text-grey">Ovos mexidos com pimenta vermelha e alho assado, com cebolinha | R$7.50</p><br>
+
+                <h4 class="w3-tag w3-light-grey">Panquecas de Mirtilo</h4>
+                <p class="w3-text-grey">Com calda, manteiga e multos frutos silvestres | R$8.50</p>
+            </div>
+
+            <div class="w3-col l6 w3-padding-large">
+                <img src="Imagens/mesa2.jpg" alt="Menu" class="w3-round w3-image w3-opacity-min" style="width: 100%;">
+            </div>
+        </div>
+
+        <br>
+
+        <!--Sessão de contatos-->
+<div class="w3-container w3-padding-64" id="contact">
+    <h1>Contatos</h1><br>
+    <p>Oferecemos serviço completo de buffet para qualquer evento, grande ou pequeno. Entendemos sua necessidade e iremos atender a comida para satisfazer os maiores critérios de todos, tanto de aparência quanto de sabor. Não exite em nos contactar.</p>
+
+    <p class="w3-text-blue-grey w3-large"><b>Endereço: Av. Wilson Sábio de Mello, 1242 - São Joaquim, Franca - SP</b></p>
+
+    <p>Você também pode nos contatar por telefone <b>00553123-2323</b>vou e-mail <b>buffet@francano.com.br</b>, ou pode nos enviar uma mensagem aqui:</p>
+
+    <form action="" target="_blank">
+        <p>
+            <input type="text" class="w3-input w3-padding-16" placeholder="Seu nome" required name="Nome">
+        </p>
+        <p>
+            <input type="number" class="w3-input w3-padding-16" placeholder="Quantidade de Pessoas" required name="Pessoas">
+        </p>
+        <p>
+            <input type="datetime-local" class="w3-input w3-padding-16" placeholder="Dia e Hora" required name="date" value="2020-11-16T20:00">
+        </p>
+        <p>
+            <input type="text" class="w3-input w3-padding-16" placeholder="Mensagem / Pedidos Especiais" required name="Mensagem">
+        </p>
+        <P>
+            <button class="w3-button w3-light-grey w3-section" type="submit">ENVIAR</button>
+        </P>
+    </form>
+</div>
+
+<!--Fim da página de conteúdo-->
+    </div>
+    <!--Rodapé-->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+     <p>Feito por Victor Hugo Ferreira Soares</p>
+    </footer>
+</body>
+
+</html>
